@@ -1,5 +1,3 @@
-/* Osnovni stil za Jovanov portfolio */
-
 body {
   font-family: 'Segoe UI', sans-serif;
   background-color: #f4f4f4;
@@ -13,6 +11,15 @@ header {
   color: white;
   padding: 40px 20px;
   text-align: center;
+}
+
+.profilna-slika {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 50%;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+  margin-bottom: 15px;
 }
 
 main {
